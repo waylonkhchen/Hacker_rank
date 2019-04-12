@@ -3,7 +3,7 @@ def jumpingOnClouds(c):
     i = 0
     while i < len(c) - 2:
         if c[i + 2] == 0:
-            path += [i + 2]  
+            path += [i + 2]
             i += 2
         else:
             path += [i + 1]
